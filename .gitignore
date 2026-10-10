@@ -1,0 +1,27 @@
+# virtual machine images and disks
+*.iso
+*.vmdk
+*.vmx
+*.vdi
+*.ova
+*.qcow2
+*.vhd
+*.vhdx
+
+# secrets — never commit
+*.pem
+*.key
+*.pfx
+secrets.*
+credentials*
+.env
+
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# editors
+.vscode/
+.idea/
+*.swp

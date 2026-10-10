@@ -1,0 +1,16 @@
+﻿
+
+FriendlyName : HFS512GEM9X174N
+MediaType    : SSD
+BusType      : NVMe
+Size         : 512110190592
+
+
+
+
+DriveLetter FileSystemLabel         Size SizeRemaining
+----------- ---------------         ---- -------------
+          C                 510982615040  316343476224
+                               898625536      75702272
+
+

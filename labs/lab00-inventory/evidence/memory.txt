@@ -1,0 +1,10 @@
+﻿
+BankLabel    Manufacturer        Capacity Speed ConfiguredClockSpeed
+---------    ------------        -------- ----- --------------------
+P0 CHANNEL A Micron Technology 4294967296  8000                 8000
+P0 CHANNEL B Micron Technology 4294967296  8000                 8000
+P0 CHANNEL C Micron Technology 4294967296  8000                 8000
+P0 CHANNEL D Micron Technology 4294967296  8000                 8000
+
+
+Total GB: 16

@@ -1,0 +1,8 @@
+﻿
+
+Name                      : AMD Ryzen AI 5 340 w/ Radeon 840M              
+NumberOfCores             : 6
+NumberOfLogicalProcessors : 12
+
+
+
