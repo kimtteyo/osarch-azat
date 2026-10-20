@@ -1,6 +1,0 @@
-﻿2
-               total        used        free      shared  buff/cache   available
-Mem:           1.6Gi       466Mi       600Mi       1.2Mi       682Mi       1.1Gi
-Swap:          2.0Gi          0B       2.0Gi
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sda2        25G  5.1G   19G  22% /
