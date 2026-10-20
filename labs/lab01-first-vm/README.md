@@ -1,5 +1,4 @@
 # Lab 1 — Your first virtual machine
-# Lab 1 — Your first virtual machine
 
 Pair: Zhansaya Azat / (Solo)   Driver first half: Zhansaya Azat
 Machine: Windows host, VMware Workstation Pro 26H1, guest lab01-ubuntu (Ubuntu Server 26.04.1 LTS, amd64)
