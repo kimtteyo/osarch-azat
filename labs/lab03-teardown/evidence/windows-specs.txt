@@ -1,0 +1,675 @@
+﻿**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20261030204541
+Имя пользователя: DESKTOP-95N90DT\User
+Запуск от имени пользователя: DESKTOP-95N90DT\User
+Имя конфигурации: 
+Компьютер: DESKTOP-95N90DT (Microsoft Windows NT 10.0.26300.0)
+Ведущее приложение: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ИД процесса: 33012
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл windows-specs.txt
+PS C:\Users\User\lab03-teardown\evidence> Get-CimInstance Win32_ComputerSystem | Format-List *
+
+
+AdminPasswordStatus         : 3
+BootupState                 : Normal boot
+ChassisBootupState          : 3
+KeyboardPasswordStatus      : 3
+PowerOnPasswordStatus       : 3
+PowerSupplyState            : 3
+PowerState                  : 0
+FrontPanelResetStatus       : 3
+ThermalState                : 3
+Status                      : OK
+Name                        : DESKTOP-95N90DT
+PowerManagementCapabilities :
+PowerManagementSupported    :
+Caption                     : DESKTOP-95N90DT
+Description                 : AT/AT COMPATIBLE
+InstallDate                 :
+CreationClassName           : Win32_ComputerSystem
+NameFormat                  :
+PrimaryOwnerContact         :
+PrimaryOwnerName            : User
+Roles                       : {LM_Workstation, LM_Server, NT}
+InitialLoadInfo             :
+LastLoadInfo                :
+ResetCapability             : 1
+AutomaticManagedPagefile    : True
+AutomaticResetBootOption    : True
+AutomaticResetCapability    : True
+BootOptionOnLimit           :
+BootOptionOnWatchDog        :
+BootROMSupported            : True
+BootStatus                  : {0, 0, 0, 0...}
+ChassisSKUNumber            : Default string
+CurrentTimeZone             : 300
+DaylightInEffect            :
+DNSHostName                 : DESKTOP-95N90DT
+Domain                      : WORKGROUP
+DomainRole                  : 0
+EnableDaylightSavingsTime   : True
+HypervisorPresent           : True
+InfraredSupported           : False
+Manufacturer                : ASUSTeK COMPUTER INC.
+Model                       : ASUS Vivobook S 16 M5606KA_M5606KA
+NetworkServerModeEnabled    : True
+NumberOfLogicalProcessors   : 12
+NumberOfProcessors          : 1
+OEMLogoBitmap               :
+OEMStringArray              : {  ,  ,  ,  ...}
+PartOfDomain                : False
+PauseAfterReset             : -1
+PCSystemType                : 2
+PCSystemTypeEx              : 2
+ResetCount                  : -1
+ResetLimit                  : -1
+SupportContactDescription   :
+SystemFamily                : ASUS Vivobook S 16
+SystemSKUNumber             :
+SystemStartupDelay          :
+SystemStartupOptions        :
+SystemStartupSetting        :
+SystemType                  : x64-based PC
+TotalPhysicalMemory         : 16234950656
+UserName                    : DESKTOP-95N90DT\User
+WakeUpType                  : 6
+Workgroup                   : WORKGROUP
+PSComputerName              :
+CimClass                    : root/cimv2:Win32_ComputerSystem
+CimInstanceProperties       : {Caption, Description, InstallDate, Name...}
+CimSystemProperties         : Microsoft.Management.Infrastructure.CimSystemPro
+                              perties
+
+
+
+PS C:\Users\User\lab03-teardown\evidence> notepad notes.txt
+PS C:\Users\User\lab03-teardown\evidence> MemoryDevices
+MemoryDevices : Имя "MemoryDevices" не распознано как имя командлета, функции, файла сценария или выполняемой программы.
+ Проверьте правильность написания имени, а также наличие и правильность пути, после чего повторите попытку.
+строка:1 знак:1
++ MemoryDevices
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (MemoryDevices:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+MemoryDevices : Имя "MemoryDevices" не распознано как имя командлета, функции,
+ файла сценария или выполняемой программы. Проверьте правильность написания им
+ени, а также наличие и правильность пути, после чего повторите попытку.
+строка:1 знак:1
++ MemoryDevices
++ ~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (MemoryDevices:String) [], Comm
+   andNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\User\lab03-teardown\evidence> Start-Transcript -Path windows-specs.txt -Append
+Транскрибирование запущено, выходной файл windows-specs.txt
+PS C:\Users\User\lab03-teardown\evidence> Get-CimInstance Win32_PhysicalMemoryArray | Format-List *
+
+
+Status                :
+Name                  : Массив физической памяти
+Replaceable           :
+Location              : 3
+Caption               : Массив физической памяти
+Description           : Массив физической памяти
+InstallDate           :
+CreationClassName     : Win32_PhysicalMemoryArray
+Manufacturer          :
+Model                 :
+OtherIdentifyingInfo  :
+PartNumber            :
+PoweredOn             :
+SerialNumber          :
+SKU                   :
+Tag                   : Physical Memory Array 0
+Version               :
+Depth                 :
+Height                :
+HotSwappable          :
+Removable             :
+Weight                :
+Width                 :
+MaxCapacity           : 67108864
+MaxCapacityEx         : 67108864
+MemoryDevices         : 4
+MemoryErrorCorrection : 3
+Use                   : 3
+PSComputerName        :
+CimClass              : root/cimv2:Win32_PhysicalMemoryArray
+CimInstanceProperties : {Caption, Description, InstallDate, Name...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemPropertie
+                        s
+
+
+
+PS C:\Users\User\lab03-teardown\evidence> Get-CimInstance Win32_PhysicalMemory | Format-List *
+
+
+Caption               : Физическая память
+Description           : Физическая память
+InstallDate           :
+Name                  : Физическая память
+Status                :
+CreationClassName     : Win32_PhysicalMemory
+Manufacturer          : Micron Technology
+Model                 :
+OtherIdentifyingInfo  :
+PartNumber            : MT62F1G32D2DS-023 WT
+PoweredOn             :
+SerialNumber          : 00000000
+SKU                   :
+Tag                   : Physical Memory 0
+Version               :
+HotSwappable          :
+Removable             :
+Replaceable           :
+FormFactor            : 1
+BankLabel             : P0 CHANNEL A
+Capacity              : 4294967296
+DataWidth             : 32
+InterleavePosition    :
+MemoryType            : 0
+PositionInRow         :
+Speed                 : 8000
+TotalWidth            : 32
+Attributes            : 1
+ConfiguredClockSpeed  : 8000
+ConfiguredVoltage     : 500
+DeviceLocator         : DIMM 0
+InterleaveDataDepth   :
+MaxVoltage            : 500
+MinVoltage            : 500
+SMBIOSMemoryType      : 35
+TypeDetail            : 16512
+PSComputerName        :
+CimClass              : root/cimv2:Win32_PhysicalMemory
+CimInstanceProperties : {Caption, Description, InstallDate, Name...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemPropertie
+                        s
+
+Caption               : Физическая память
+Description           : Физическая память
+InstallDate           :
+Name                  : Физическая память
+Status                :
+CreationClassName     : Win32_PhysicalMemory
+Manufacturer          : Micron Technology
+Model                 :
+OtherIdentifyingInfo  :
+PartNumber            : MT62F1G32D2DS-023 WT
+PoweredOn             :
+SerialNumber          : 00000000
+SKU                   :
+Tag                   : Physical Memory 1
+Version               :
+HotSwappable          :
+Removable             :
+Replaceable           :
+FormFactor            : 1
+BankLabel             : P0 CHANNEL B
+Capacity              : 4294967296
+DataWidth             : 32
+InterleavePosition    :
+MemoryType            : 0
+PositionInRow         :
+Speed                 : 8000
+TotalWidth            : 32
+Attributes            : 1
+ConfiguredClockSpeed  : 8000
+ConfiguredVoltage     : 500
+DeviceLocator         : DIMM 0
+InterleaveDataDepth   :
+MaxVoltage            : 500
+MinVoltage            : 500
+SMBIOSMemoryType      : 35
+TypeDetail            : 16512
+PSComputerName        :
+CimClass              : root/cimv2:Win32_PhysicalMemory
+CimInstanceProperties : {Caption, Description, InstallDate, Name...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemPropertie
+                        s
+
+Caption               : Физическая память
+Description           : Физическая память
+InstallDate           :
+Name                  : Физическая память
+Status                :
+CreationClassName     : Win32_PhysicalMemory
+Manufacturer          : Micron Technology
+Model                 :
+OtherIdentifyingInfo  :
+PartNumber            : MT62F1G32D2DS-023 WT
+PoweredOn             :
+SerialNumber          : 00000000
+SKU                   :
+Tag                   : Physical Memory 2
+Version               :
+HotSwappable          :
+Removable             :
+Replaceable           :
+FormFactor            : 1
+BankLabel             : P0 CHANNEL C
+Capacity              : 4294967296
+DataWidth             : 32
+InterleavePosition    :
+MemoryType            : 0
+PositionInRow         :
+Speed                 : 8000
+TotalWidth            : 32
+Attributes            : 1
+ConfiguredClockSpeed  : 8000
+ConfiguredVoltage     : 500
+DeviceLocator         : DIMM 0
+InterleaveDataDepth   :
+MaxVoltage            : 500
+MinVoltage            : 500
+SMBIOSMemoryType      : 35
+TypeDetail            : 16512
+PSComputerName        :
+CimClass              : root/cimv2:Win32_PhysicalMemory
+CimInstanceProperties : {Caption, Description, InstallDate, Name...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemPropertie
+                        s
+
+Caption               : Физическая память
+Description           : Физическая память
+InstallDate           :
+Name                  : Физическая память
+Status                :
+CreationClassName     : Win32_PhysicalMemory
+Manufacturer          : Micron Technology
+Model                 :
+OtherIdentifyingInfo  :
+PartNumber            : MT62F1G32D2DS-023 WT
+PoweredOn             :
+SerialNumber          : 00000000
+SKU                   :
+Tag                   : Physical Memory 3
+Version               :
+HotSwappable          :
+Removable             :
+Replaceable           :
+FormFactor            : 1
+BankLabel             : P0 CHANNEL D
+Capacity              : 4294967296
+DataWidth             : 32
+InterleavePosition    :
+MemoryType            : 0
+PositionInRow         :
+Speed                 : 8000
+TotalWidth            : 32
+Attributes            : 1
+ConfiguredClockSpeed  : 8000
+ConfiguredVoltage     : 500
+DeviceLocator         : DIMM 0
+InterleaveDataDepth   :
+MaxVoltage            : 500
+MinVoltage            : 500
+SMBIOSMemoryType      : 35
+TypeDetail            : 16512
+PSComputerName        :
+CimClass              : root/cimv2:Win32_PhysicalMemory
+CimInstanceProperties : {Caption, Description, InstallDate, Name...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemPropertie
+                        s
+
+
+
+PS C:\Users\User\lab03-teardown\evidence> Get-PhysicalDisk | Format-List *
+
+
+ClassName                        : MSFT_PhysicalDisk
+Usage                            : Auto-Select
+OperationalStatus                : OK
+UniqueIdFormat                   : SCSI Name String
+HealthStatus                     : Healthy
+BusType                          : NVMe
+CannotPoolReason                 : Insufficient Capacity
+SupportedUsages                  : {Auto-Select, Manual-Select, Hot Spare, Ret
+                                   ired...}
+MediaType                        : SSD
+SpindleSpeed                     : 0
+ObjectId                         : {1}\\DESKTOP-95N90DT\root/Microsoft/Windows
+                                   /Storage/Providers_v2\SPACES_PhysicalDisk.O
+                                   bjectId="{855d3bcf-88d7-11f0-bbb8-806e6f6e6
+                                   963}:PD:{96fb19fa-f4a0-bcd9-12bd-2a3dae5b7a
+                                   0c}"
+PassThroughClass                 :
+PassThroughIds                   :
+PassThroughNamespace             :
+PassThroughServer                :
+UniqueId                         : eui.FD5B42CEBC8F9D54ACE42E0025000055
+Description                      :
+FriendlyName                     : HFS512GEM9X174N
+Manufacturer                     :
+Model                            : HFS512GEM9X174N
+OperationalDetails               :
+PhysicalLocation                 : Integrated : Bus 97 : Device 0 : Function 0
+                                    : Adapter 0
+SerialNumber                     : FD5B_42CE_BC8F_9D54_ACE4_2E00_2500_0055.
+AdapterSerialNumber              : 5MDBN00501420BE4K   _0001
+AllocatedSize                    : 512109142016
+CanPool                          : False
+DeviceId                         : 0
+EnclosureNumber                  :
+FirmwareVersion                  : 61000A60
+FruId                            : 5MDBN00501420BE4K
+IsIndicationEnabled              : False
+IsPartial                        : True
+LogicalSectorSize                : 512
+OtherCannotPoolReasonDescription :
+PartNumber                       :
+PhysicalSectorSize               : 4096
+Size                             : 512110190592
+SlotNumber                       :
+SoftwareVersion                  :
+StoragePoolUniqueId              :
+VirtualDiskFootprint             : 0
+PSComputerName                   :
+CimClass                         : root/microsoft/windows/storage:MSFT_Physica
+                                   lDisk
+CimInstanceProperties            : {ObjectId, PassThroughClass, PassThroughIds
+                                   , PassThroughNamespace...}
+CimSystemProperties              : Microsoft.Management.Infrastructure.CimSyst
+                                   emProperties
+
+
+
+PS C:\Users\User\lab03-teardown\evidence> Get-CimInstance Win32_Processor | Format-List *
+
+
+Availability                            : 3
+CpuStatus                               : 1
+CurrentVoltage                          : 12
+DeviceID                                : CPU0
+ErrorCleared                            :
+ErrorDescription                        :
+LastErrorCode                           :
+LoadPercentage                          : 3
+Status                                  : OK
+StatusInfo                              : 3
+AddressWidth                            : 64
+DataWidth                               : 64
+ExtClock                                : 100
+L2CacheSize                             : 6144
+L2CacheSpeed                            :
+MaxClockSpeed                           : 2000
+PowerManagementSupported                : False
+ProcessorType                           : 3
+Revision                                : 24576
+SocketDesignation                       : FP8LPDDR5x
+Version                                 : Модель 0, выпуск 0
+VoltageCaps                             :
+Caption                                 : AMD64 Family 26 Model 96 Stepping 0
+Description                             : AMD64 Family 26 Model 96 Stepping 0
+InstallDate                             :
+Name                                    : AMD Ryzen AI 5 340 w/ Radeon 840M
+
+ConfigManagerErrorCode                  :
+ConfigManagerUserConfig                 :
+CreationClassName                       : Win32_Processor
+PNPDeviceID                             :
+PowerManagementCapabilities             :
+SystemCreationClassName                 : Win32_ComputerSystem
+SystemName                              : DESKTOP-95N90DT
+CurrentClockSpeed                       : 2000
+Family                                  : 107
+OtherFamilyDescription                  :
+Role                                    : CPU
+Stepping                                : 0
+UniqueId                                :
+UpgradeMethod                           : 1
+Architecture                            : 9
+AssetTag                                : Unknown
+Characteristics                         : 252
+L3CacheSize                             : 16384
+L3CacheSpeed                            : 0
+Level                                   : 26
+Manufacturer                            : AuthenticAMD
+NumberOfCores                           : 6
+NumberOfEnabledCore                     : 6
+NumberOfLogicalProcessors               : 12
+PartNumber                              : Unknown
+ProcessorId                             : 178BFBFF00B60F00
+SecondLevelAddressTranslationExtensions : False
+SerialNumber                            : Unknown
+ThreadCount                             : 12
+VirtualizationFirmwareEnabled           : True
+VMMonitorModeExtensions                 : False
+PSComputerName                          :
+CimClass                                : root/cimv2:Win32_Processor
+CimInstanceProperties                   : {Caption, Description, InstallDate,
+                                          Name...}
+CimSystemProperties                     : Microsoft.Management.Infrastructure.
+                                          CimSystemProperties
+
+
+
+PS C:\Users\User\lab03-teardown\evidence> Get-CimInstance Win32_BaseBoard | Format-List *
+
+
+Status                  : OK
+Name                    : Основная плата
+PoweredOn               : True
+Caption                 : Основная плата
+Description             : Основная плата
+InstallDate             :
+CreationClassName       : Win32_BaseBoard
+Manufacturer            : ASUSTeK COMPUTER INC.
+Model                   :
+OtherIdentifyingInfo    :
+PartNumber              :
+SerialNumber            : T101NBCX00086KMB
+SKU                     :
+Tag                     : Base Board
+Version                 : 1.0
+Depth                   :
+Height                  :
+HotSwappable            : False
+Removable               : False
+Replaceable             : True
+Weight                  :
+Width                   :
+HostingBoard            : True
+RequirementsDescription :
+RequiresDaughterBoard   : False
+SlotLayout              :
+SpecialRequirements     :
+ConfigOptions           : {Default string}
+Product                 : M5606KA
+PSComputerName          :
+CimClass                : root/cimv2:Win32_BaseBoard
+CimInstanceProperties   : {Caption, Description, InstallDate, Name...}
+CimSystemProperties     : Microsoft.Management.Infrastructure.CimSystemPropert
+                          ies
+
+
+
+PS C:\Users\User\lab03-teardown\evidence> Get-CimInstance Win32_ComputerSystem | Format-List *
+
+
+AdminPasswordStatus         : 3
+BootupState                 : Normal boot
+ChassisBootupState          : 3
+KeyboardPasswordStatus      : 3
+PowerOnPasswordStatus       : 3
+PowerSupplyState            : 3
+PowerState                  : 0
+FrontPanelResetStatus       : 3
+ThermalState                : 3
+Status                      : OK
+Name                        : DESKTOP-95N90DT
+PowerManagementCapabilities :
+PowerManagementSupported    :
+Caption                     : DESKTOP-95N90DT
+Description                 : AT/AT COMPATIBLE
+InstallDate                 :
+CreationClassName           : Win32_ComputerSystem
+NameFormat                  :
+PrimaryOwnerContact         :
+PrimaryOwnerName            : User
+Roles                       : {LM_Workstation, LM_Server, NT}
+InitialLoadInfo             :
+LastLoadInfo                :
+ResetCapability             : 1
+AutomaticManagedPagefile    : True
+AutomaticResetBootOption    : True
+AutomaticResetCapability    : True
+BootOptionOnLimit           :
+BootOptionOnWatchDog        :
+BootROMSupported            : True
+BootStatus                  : {0, 0, 0, 0...}
+ChassisSKUNumber            : Default string
+CurrentTimeZone             : 300
+DaylightInEffect            :
+DNSHostName                 : DESKTOP-95N90DT
+Domain                      : WORKGROUP
+DomainRole                  : 0
+EnableDaylightSavingsTime   : True
+HypervisorPresent           : True
+InfraredSupported           : False
+Manufacturer                : ASUSTeK COMPUTER INC.
+Model                       : ASUS Vivobook S 16 M5606KA_M5606KA
+NetworkServerModeEnabled    : True
+NumberOfLogicalProcessors   : 12
+NumberOfProcessors          : 1
+OEMLogoBitmap               :
+OEMStringArray              : {  ,  ,  ,  ...}
+PartOfDomain                : False
+PauseAfterReset             : -1
+PCSystemType                : 2
+PCSystemTypeEx              : 2
+ResetCount                  : -1
+ResetLimit                  : -1
+SupportContactDescription   :
+SystemFamily                : ASUS Vivobook S 16
+SystemSKUNumber             :
+SystemStartupDelay          :
+SystemStartupOptions        :
+SystemStartupSetting        :
+SystemType                  : x64-based PC
+TotalPhysicalMemory         : 16234950656
+UserName                    : DESKTOP-95N90DT\User
+WakeUpType                  : 6
+Workgroup                   : WORKGROUP
+PSComputerName              :
+CimClass                    : root/cimv2:Win32_ComputerSystem
+CimInstanceProperties       : {Caption, Description, InstallDate, Name...}
+CimSystemProperties         : Microsoft.Management.Infrastructure.CimSystemPro
+                              perties
+
+
+
+PS C:\Users\User\lab03-teardown\evidence> Get-CimInstance Win32_ComputerSystemProduct | Format-List *
+
+
+Name                  : ASUS Vivobook S 16 M5606KA_M5606KA
+Version               : 1.0
+Caption               : Компьютерная система
+Description           : Компьютерная система
+IdentifyingNumber     : T1N0CX01E798016
+SKUNumber             :
+Vendor                : ASUSTeK COMPUTER INC.
+UUID                  : 6595675A-EC84-3641-BE81-B0F57A2D26EA
+PSComputerName        :
+CimClass              : root/cimv2:Win32_ComputerSystemProduct
+CimInstanceProperties : {Caption, Description, IdentifyingNumber, Name...}
+CimSystemProperties   : Microsoft.Management.Infrastructure.CimSystemPropertie
+                        s
+
+
+
+PS C:\Users\User\lab03-teardown\evidence> Stop-Transcript
+Транскрибирование остановлено, выходной файл C:\Users\User\lab03-teardown\evidence\windows-specs.txt
+PS C:\Users\User\lab03-teardown\evidence> notepad windows-specs.txt
+PS C:\Users\User\lab03-teardown\evidence> mkdir manual-figures
+mkdir : Элемент с указанным именем C:\Users\User\lab03-teardown\evidence\manual-figures уже существует.
+строка:1 знак:1
++ mkdir manual-figures
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\User\l...\manual-figures:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+mkdir : Элемент с указанным именем C:\Users\User\lab03-teardown\evidence\manua
+l-figures уже существует.
+строка:1 знак:1
++ mkdir manual-figures
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceExists: (C:\Users\User\l...\manual-figu
+   res:String) [New-Item], IOException
+    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.Ne
+   wItemCommand
+
+PS C:\Users\User\lab03-teardown\evidence> cd ..
+PS C:\Users\User\lab03-teardown> New-Item README.md
+
+
+    Каталог: C:\Users\User\lab03-teardown
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        30.10.2026     21:48              0 README.md
+
+
+PS C:\Users\User\lab03-teardown> dir evidence
+
+
+    Каталог: C:\Users\User\lab03-teardown\evidence
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        30.10.2026     20:44                manual-figures
+-a----        30.10.2026     20:52              0 notes.txt
+-a----        30.10.2026     21:40          23634 windows-specs.txt
+
+
+PS C:\Users\User\lab03-teardown> scp
+
+PS C:\Users\User\lab03-teardown> zhansaya@192.168.100.130:~/linux-specs.txt C:\Users\User\lab03-teardown\evidence\
+zhansaya@192.168.100.130:~/linux-specs.txt : Имя "zhansaya@192.168.100.130:~/linux-specs.txt" не распознано как имя кома
+ндлета, функции, файла сценария или выполняемой программы. Проверьте правильность написания имени, а также наличие и пра
+вильность пути, после чего повторите попытку.
+строка:1 знак:1
++ zhansaya@192.168.100.130:~/linux-specs.txt C:\Users\User\lab03-teardo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (zhansaya@192.16...linux-specs.txt:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+zhansaya@192.168.100.130:~/linux-specs.txt : Имя "zhansaya@192.168.100.130:~/l
+inux-specs.txt" не распознано как имя командлета, функции, файла сценария или
+выполняемой программы. Проверьте правильность написания имени, а также наличие
+ и правильность пути, после чего повторите попытку.
+строка:1 знак:1
++ zhansaya@192.168.100.130:~/linux-specs.txt C:\Users\User\lab03-teardo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (zhansaya@192.16...linux-specs.
+   txt:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\User\lab03-teardown> scp zhansaya@192.168.100.130:~/linux-specs.txt C:\Users\User\lab03-teardown\evidence\
+
+PS C:\Users\User\lab03-teardown> dir C:\Users\User\lab03-teardown\evidence
+
+
+    Каталог: C:\Users\User\lab03-teardown\evidence
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        30.10.2026     20:44                manual-figures
+-a----        30.10.2026     22:39          46249 linux-specs.txt
+-a----        30.10.2026     20:52              0 notes.txt
+-a----        30.10.2026     21:50          25317 windows-specs.txt
+
+
+PS C:\Users\User\lab03-teardown> notepad C:\Users\User\lab03-teardown\evidence\linux-specs.txt
