@@ -80,9 +80,10 @@ dynamic, so they really use less than 89 GB. Free space fell from 279.54 GB
 1. Measured the host: `systeminfo`, `Get-PSDrive C`, Task Manager → Memory.
 2. Created `ticket1-ubuntu` (Typical wizard) and installed Ubuntu Server
    26.04.1. Address `192.168.100.133/24`. Snapshot `clean-install`.
-3. Created `ticket1-win11`. VMware's Easy Install installed Windows by itself
-   with a local account and VMware Tools. Address `192.168.100.135`.
-   Saved the licence status with `slmgr /dlv`. Snapshot `clean-install`.
+3. Created `ticket1-win11`. I chose Disk 0 in Windows Setup; VMware's Easy
+   Install did the rest by itself: a local account, VMware Tools and
+   automatic login. Address `192.168.100.135`. Saved the licence status with
+   `slmgr /dlv`. Snapshot `clean-install`.
 4. Ping from Linux to Windows failed; fixed with one firewall rule.
 5. Linux had no internet; fixed the hung VMware NAT service (see below).
 6. Saved the evidence as text from the host over SSH:
@@ -173,26 +174,23 @@ That is why BUILD.md tells the reader to close everything first.
 ## 4. Evidence
 
 - [00-host-specs.txt](evidence/00-host-specs.txt) — host memory, CPU and free disk on the day of the build
-- [01-new-vm-wizard.png](evidence/01-new-vm-wizard.png) — the Typical wizard used to create the VM (retaken after installation)
-- [02-disk-settings.png](evidence/02-disk-settings.png) — 25 GB disk stored as a single file (retaken after installation)
-- [03-network-adapter.png](evidence/03-network-adapter.png) — network adapter set to NAT (retaken after installation)
+- [01-new-vm-wizard.png](evidence/01-new-vm-wizard.png) — the Typical wizard used to create the Ubuntu VM
+- [02-disk-settings.png](evidence/02-disk-settings.png) — 25 GB disk stored as a single file
+- [03-network-adapter.png](evidence/03-network-adapter.png) — network adapter set to NAT
 - [04-guest-uname.txt](evidence/04-guest-uname.txt) — kernel and Ubuntu 26.04.1 release of the guest, taken over SSH
 - [05-ping-failed-no-internet.txt](evidence/05-ping-failed-no-internet.txt) — Linux had no internet before the NAT service was fixed
 - [05-ping-between-guests.txt](evidence/05-ping-between-guests.txt) — after the fixes: the guests reach each other in both directions and the internet
-- [06-snapshot-list.txt](evidence/06-snapshot-list.txt) — snapshots `clean-install` and `network-ok` exist
+- [06-snapshot-list.png](evidence/06-snapshot-list.png) — Snapshot Manager with `clean-install` and `network-ok`
+- [06-snapshot-list.txt](evidence/06-snapshot-list.txt) — the same snapshot list as text, from `vmrun listSnapshots`
 - [07-ping-before-fix.txt](evidence/07-ping-before-fix.txt) — ping to Windows failed before the firewall rule; network profile was Public
 - [08-win-license.txt](evidence/08-win-license.txt) — Windows is an Evaluation licence, 90 days
 - [09-ubuntu-vmx.txt](evidence/09-ubuntu-vmx.txt) — memory, CPUs and NAT as written in the VM configuration file
-- `step-*.png` — screenshots used in BUILD.md
-
-Screenshots 01–03 were taken after installation, by opening the wizard again
-and cancelling it, and from VM → Settings. The settings themselves are
-confirmed by `09-ubuntu-vmx.txt`.
+- `step-*.png` — screenshots of each step, used in BUILD.md
 
 ## 5. What I would do differently
 
 I would test BUILD.md with someone outside IT before submitting, not after:
 I wrote it for Aigerim, but I am the only person who has followed it, and I
-already knew every answer. I would also take the screenshots during the
-build, not afterwards — screenshots 01–03 had to be retaken, and Easy Install
-skipped the Windows setup screens before I noticed.
+already knew every answer. I would also check how VMware installs Windows
+before starting: Easy Install created the account and logged in by itself,
+so I noticed only afterwards and had to take the local-account screenshot later.
