@@ -1,0 +1,23 @@
+﻿
+C:\Users\User\OneDrive\Документы\Virtual Machines\ticket1-ubuntu\ticket1-ubuntu.v
+mx:27:guestOS = "ubuntu-64"
+C:\Users\User\OneDrive\Документы\Virtual Machines\ticket1-ubuntu\ticket1-ubuntu.v
+mx:33:numvcpus = "2"
+C:\Users\User\OneDrive\Документы\Virtual Machines\ticket1-ubuntu\ticket1-ubuntu.v
+mx:36:memsize = "2048"
+C:\Users\User\OneDrive\Документы\Virtual Machines\ticket1-ubuntu\ticket1-ubuntu.v
+mx:50:ethernet0.connectionType = "nat"
+C:\Users\User\OneDrive\Документы\Virtual Machines\ticket1-ubuntu\ticket1-ubuntu.v
+mx:51:ethernet0.addressType = "generated"
+C:\Users\User\OneDrive\Документы\Virtual Machines\ticket1-ubuntu\ticket1-ubuntu.v
+mx:52:ethernet0.virtualDev = "e1000"
+C:\Users\User\OneDrive\Документы\Virtual Machines\ticket1-ubuntu\ticket1-ubuntu.v
+mx:53:ethernet0.present = "TRUE"
+C:\Users\User\OneDrive\Документы\Virtual Machines\ticket1-ubuntu\ticket1-ubuntu.v
+mx:67:ethernet0.pciSlotNumber = "33"
+C:\Users\User\OneDrive\Документы\Virtual Machines\ticket1-ubuntu\ticket1-ubuntu.v
+mx:97:ethernet0.generatedAddress = "00:0c:29:87:3a:cf"
+C:\Users\User\OneDrive\Документы\Virtual Machines\ticket1-ubuntu\ticket1-ubuntu.v
+mx:98:ethernet0.generatedAddressOffset = "0"
+
+

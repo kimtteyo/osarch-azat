@@ -1,0 +1,54 @@
+﻿PING 192.168.100.135 (192.168.100.135) 56(84) bytes of data.
+64 bytes from 192.168.100.135: icmp_seq=1 ttl=128 time=1.54 ms
+64 bytes from 192.168.100.135: icmp_seq=2 ttl=128 time=0.976 ms
+64 bytes from 192.168.100.135: icmp_seq=3 ttl=128 time=0.807 ms
+64 bytes from 192.168.100.135: icmp_seq=4 ttl=128 time=0.592 ms
+
+--- 192.168.100.135 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3015ms
+rtt min/avg/max/mdev = 0.592/0.977/1.535/0.349 ms
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=128 time=111 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=128 time=116 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=128 time=119 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=128 time=105 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 104.856/112.564/118.862/5.264 ms
+PING google.com (142.251.110.102) 56(84) bytes of data.
+64 bytes from bz-in-f102.1e100.net (142.251.110.102): icmp_seq=1 ttl=128 time=122 ms
+64 bytes from bz-in-f102.1e100.net (142.251.110.102): icmp_seq=2 ttl=128 time=109 ms
+64 bytes from bz-in-f102.1e100.net (142.251.110.102): icmp_seq=3 ttl=128 time=114 ms
+64 bytes from bz-in-f102.1e100.net (142.251.110.102): icmp_seq=4 ttl=128 time=110 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3004ms
+rtt min/avg/max/mdev = 109.369/113.866/122.028/4.973 ms
+
+== Windows -> Ubuntu / internet 
+C:\Users\zhansaya> ping 192.168.100.133
+
+Pinging 192.168.100.133 with 32 bytes of data:
+Reply from 192.168.100.133: bytes=32 time<1ms TTL=64
+Reply from 192.168.100.133: bytes=32 time<1ms TTL=64
+Reply from 192.168.100.133: bytes=32 time<1ms TTL=64
+Reply from 192.168.100.133: bytes=32 time<1ms TTL=64
+
+Ping statistics for 192.168.100.133:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+C:\Users\zhansaya> ping google.com
+
+Pinging google.com [142.250.154.139] with 32 bytes of data:
+Reply from 142.250.154.139: bytes=32 time=119ms TTL=128
+Reply from 142.250.154.139: bytes=32 time=108ms TTL=128
+Reply from 142.250.154.139: bytes=32 time=118ms TTL=128
+Reply from 142.250.154.139: bytes=32 time=147ms TTL=128
+
+Ping statistics for 142.250.154.139:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 108ms, Maximum = 147ms, Average = 123ms

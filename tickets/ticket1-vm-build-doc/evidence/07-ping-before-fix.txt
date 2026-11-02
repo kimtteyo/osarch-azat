@@ -1,0 +1,18 @@
+﻿PING 192.168.100.135 (192.168.100.135) 56(84) bytes of data.
+
+--- 192.168.100.135 ping statistics ---
+4 packets transmitted, 0 received, 100% packet loss, time 3106ms
+
+
+
+PS C:\Users\User\Documents\ticket1-vm-build-doc\evidence> Get-NetConnectionProfile
+
+
+
+Name                     : ALTEL 5G_1253_5G 3
+InterfaceAlias           : Беспроводная сеть 2
+InterfaceIndex           : 6
+NetworkCategory          : Public
+DomainAuthenticationKind : None
+IPv4Connectivity         : Internet
+IPv6Connectivity         : Internet

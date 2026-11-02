@@ -1,0 +1,25 @@
+﻿
+TotalPhysicalMemory
+-------------------
+        16234950656
+
+
+
+Name                                            NumberOfCores NumberOfLogicalProc
+                                                                           essors
+----                                            ------------- -------------------
+AMD Ryzen AI 5 340 w/ Radeon 840M                           6                  12
+
+
+
+        Used         Free
+        ----         ----
+341557637120 169348431872
+
+
+
+FreePhysicalMemory
+------------------
+            875640
+
+

@@ -1,0 +1,7 @@
+﻿Total snapshots: 2
+clean-install
+network-ok
+--- win11 ---
+Total snapshots: 2
+clean-install
+network-ok
