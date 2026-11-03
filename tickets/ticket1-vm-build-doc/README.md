@@ -170,6 +170,9 @@ New-NetFirewallRule -DisplayName "Ticket1 - allow ping (ICMPv4 echo)" -Direction
 **Not enough memory at first.** The first measurement showed 3.0 GB
 available — not enough for two guests. After closing programs: 7.1 GB.
 That is why BUILD.md tells the reader to close everything first.
+## Review
+
+Review: [feedback-from-Ilyas.md](tickets/ticket1-vm-build-doc/review/feedback-from-Ilyas.md)
 
 ## 4. Evidence
 
