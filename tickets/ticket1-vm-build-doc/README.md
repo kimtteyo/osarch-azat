@@ -170,11 +170,36 @@ New-NetFirewallRule -DisplayName "Ticket1 - allow ping (ICMPv4 echo)" -Direction
 **Not enough memory at first.** The first measurement showed 3.0 GB
 available — not enough for two guests. After closing programs: 7.1 GB.
 That is why BUILD.md tells the reader to close everything first.
-## Review
 
-Review: [feedback-from-Ilyas.md](tickets/ticket1-vm-build-doc/review/feedback-from-Ilyas.md)
+## 4. Peer Review
 
-## 4. Evidence
+Reviewer: **Togzhan Ilyas**  
+Full feedback file: [feedback-from-Togzhan.md](tickets/ticket1-vm-build-doc/review/feedback-from-Togzhan.md)[cite: 1]  
+Environment tested: VMware Workstation Pro on Windows (reviewer's background: macOS / VMware Fusion)[cite: 1]
+
+### Key Takeaways
+
+* **Execution Success:** The reviewer completed the entire guide from scratch without getting stuck or needing external help[cite: 1]. The explicit "Why" and "Check" blocks were highlighted as critical for confidence and validation across unfamiliar OS/hypervisor steps[cite: 1].
+* **High-Impact Decisions Validated:** Explicit instructions to disable LVM (Step 10), allocate 2048 MB RAM via NAT (Step 6), retain 64 GB minimum for Windows 11 (Step 18), and configure an ICMP-only firewall rule (Step 22) directly prevented wrong setup choices[cite: 1].
+
+### Identified Gaps & Friction Points
+
+1. **Terminal UI Peculiarities:** Linux password entry does not show asterisks or characters (blind typing); this caused hesitation for a non-Linux user (Step 13)[cite: 1].
+2. **Interactive Prompts:** `sudo apt upgrade -y` triggers a ncurses-based "restart services" dialogue with no indication of whether to accept defaults (Step 13)[cite: 1].
+3. **VMware Easy Install Ambiguity:** Prompts for Windows edition selection and blank product key input were not documented (Step 16)[cite: 1].
+4. **Boot Mechanics:** Missing notice about the fleeting "Press any key to boot from CD or DVD..." prompt during Windows ISO boot (Step 20)[cite: 1].
+5. **Dynamic Networking:** IP addresses assigned via DHCP can shift after VM reboots or service restarts; no instruction was provided to verify IPs if subsequent pings fail (Step 23)[cite: 1].
+6. **Handover Protocol:** OpenSSH was installed, but the guide lacked concrete handover details for the developer (SSH connection syntax `ssh <user>@<ip>`, default credentials, snapshot names, and the 90-day evaluation expiry notice)[cite: 1].
+
+### Action Plan for BUILD.md
+
+- [ ] Add explicit screenshots/labels for multi-screen confirmation dialogues (Step 10)[cite: 1].
+- [ ] Add UX hints: silent password input and the default Enter action for service restart screens[cite: 1].
+- [ ] Document the Windows Easy Install fields (leave product key blank, select appropriate edition)[cite: 1].
+- [ ] Add a troubleshooting note on DHCP re-lease checks (`ip a` / `ipconfig`) prior to ping verification[cite: 1].
+- [ ] Add a formal "Handover Checklist" section at the end of `BUILD.md` containing SSH credentials, connection commands, and snapshot rollback steps[cite: 1].
+      
+## 5. Evidence
 
 - [00-host-specs.txt](evidence/00-host-specs.txt) — host memory, CPU and free disk on the day of the build
 - [01-new-vm-wizard.png](evidence/01-new-vm-wizard.png) — the Typical wizard used to create the Ubuntu VM
@@ -190,7 +215,7 @@ Review: [feedback-from-Ilyas.md](tickets/ticket1-vm-build-doc/review/feedback-fr
 - [09-ubuntu-vmx.txt](evidence/09-ubuntu-vmx.txt) — memory, CPUs and NAT as written in the VM configuration file
 - `step-*.png` — screenshots of each step, used in BUILD.md
 
-## 5. What I would do differently
+## 6. What I would do differently
 
 I would test BUILD.md with someone outside IT before submitting, not after:
 I wrote it for Aigerim, but I am the only person who has followed it, and I
