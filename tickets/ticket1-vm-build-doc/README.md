@@ -174,7 +174,7 @@ That is why BUILD.md tells the reader to close everything first.
 ## 4. Peer Review
 
 Reviewer: **Togzhan Ilyas**  
-Full feedback file: [feedback-from-Togzhan.md](tickets/ticket1-vm-build-doc/review/feedback-from-Togzhan.md)[cite: 1]  
+Full feedback file: [feedback-from-Togzhan.md]([tickets/ticket1-vm-build-doc/review/feedback-from-Togzhan.md](https://github.com/kimtteyo/osarch-azat/blob/main/tickets/ticket1-vm-build-doc/feedback-from-Togzhan.md)
 Environment tested: VMware Workstation Pro on Windows (reviewer's background: macOS / VMware Fusion)[cite: 1]
 
 ### Key Takeaways
