@@ -1,6 +1,7 @@
 # Ticket 2 — We are kitting out the new office
 
 Author: Azat Zhansaya
+
 Prices checked: 15.11.2026
 
 ## 1. What was asked
