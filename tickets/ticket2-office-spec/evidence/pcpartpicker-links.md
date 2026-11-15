@@ -21,7 +21,7 @@ Prices checked on 15.11.2026.
 | Inno3D RTX 5060 Twin X2 OC 8 GB (out of stock) | [Forcecom.kz](https://forcecom.kz/catalog/graphics-cards/model/531798/) | 194,500 | [10](vendor-quotes/10-gpu-rtx5060-forcecom.png) |
 | Windows 11 Pro DSP OEI KZ (FQC-10548) | [notik.kz](https://notik.kz/shop/software/operacionnaya-sistema-microsoft-windows-11-pro/) | 78,100 | [11](vendor-quotes/11-windows-11-pro-notikkz.png) |
 | AOC 24B31H | [itmag.kz](https://itmag.kz/p/117405-monitor-23-8-aoc-24b31h-01-ips-1920x1080-1/?utm_source=google&utm_medium=cpc&utm_campaign=%D0%9C%D0%B0%D0%BA%D1%81+%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82+%7C+%D0%9E%D0%B1%D1%89%D0%B0%D1%8F&utm_content=&utm_term=&gad_source=1&gad_campaignid=22905383885&gbraid=0AAAABBHFVji0JAZ4QjMxmFPR7BOBEwyyi&gclid=Cj0KCQiAzeXXBhCGARIsADO5-zF7ngE2MrkX1RM_Q98DbU6BvN-FAmtS-rXuA_QVKGxZQA4Fp9IKUfIaApvKEALw_wcB) | 38 291 | [12](vendor-quotes/12-monitor-aoc-24b31h.png) |
-| AOC 24B3QA2/01 | [shaop.kz](https://shop.kz/offer/monitor-23-8-aoc-24b3qa2-01-black/?srsltid=AYCX9vIsSZvFrR0HIKIrUW_ntlXYXf0DroBFH0e61DAEU1SFFKFKxYsw) | 57 590 | [13](vendor-quotes/13-monitor-aoc-24b3qa2.png) |
+| AOC 24B3QA2/01 | [shop.kz](https://shop.kz/offer/monitor-23-8-aoc-24b3qa2-01-black/?srsltid=AYCX9vIsSZvFrR0HIKIrUW_ntlXYXf0DroBFH0e61DAEU1SFFKFKxYsw) | 57 590 | [13](vendor-quotes/13-monitor-aoc-24b3qa2.png) |
 | MSI MAG 275QF | [Shop.kz](https://shop.kz/offer/monitor-27-msi-mag-275qf-black/?srsltid=AYCX9vJmIbQVXYVlbTpiOC8D5-XunTLU8PqL_sAIDydHDpcdcU6d15WK) | 108,990 | [14](vendor-quotes/14-monitor-msi-275qf-ekatalog.png) |
 
 ## Pre-built machines (question 2)
