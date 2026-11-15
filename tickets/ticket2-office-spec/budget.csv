@@ -1,0 +1,39 @@
+role,component,model,price_kzt,shop,screenshot,date
+Accountant,CPU,"AMD Ryzen 5 7600 OEM (6C/12T, AM5, iGPU)",92810,Forcecom.kz https://forcecom.kz/catalog/processors/model/361014/,evidence/vendor-quotes/01-cpu-ryzen5-7600-forcecom.png,2026-11-15
+Accountant,CPU cooler,DeepCool GammaXX GT V2 RGB,16990,Shop.kz https://shop.kz/offer/kuler-deepcool-gammaxx-gt-v2-rgb/,evidence/vendor-quotes/03-cooler-gammaxx-gt-v2-shopkz.png,2026-11-15
+Accountant,Motherboard,"MSI PRO B650M-P (AM5, mATX)",61990,Shop.kz https://shop.kz/offer/materinskaya-plata-msi-pro-b650m-p-am5/,evidence/vendor-quotes/04-mb-msi-b650m-p-shopkz.png,2026-11-15
+Accountant,Memory,AMD Radeon R5 DDR5-5200 16 GB (1x16) R5516G5200U1S-U,122990,Shop.kz https://shop.kz/offer/ddr-5-dimm-16-gb-5200-mhz-amd-radeon-r5-entertainment-series-box-r5516g5200u1s-u/,evidence/vendor-quotes/05-ram-ddr5-16gb-shopkz.png,2026-11-15
+Accountant,SSD,Netac NV3000 1 TB NVMe PCIe 3.0,74990,Shop.kz https://shop.kz/offer/ssd-nakopitel-1-tb-netac-nv3000-m-2-pcie-3-0/,evidence/vendor-quotes/07-ssd-netac-1tb-shopkz.png,2026-11-15
+Accountant,PSU,MSI MAG A550BN 550 W 80+ Bronze,22590,Shop.kz https://shop.kz/offer/blok-pitaniya-atx-550-w-msi-mag-a550bn/,evidence/vendor-quotes/08-psu-msi-a550bn-shopkz.png,2026-11-15
+Accountant,Case,DeepCool CC560 V2 Black (Midi Tower),28990,Shop.kz https://shop.kz/offer/korpus-deepcool-cc560-v2-black/,evidence/vendor-quotes/09-case-cc560-v2-shopkz.png,2026-11-15
+Accountant,OS,Windows 11 Pro 64-bit Russian DSP OEI Kazakhstan Only DVD FQC-10548,78100,notik.kz https://notik.kz/shop/software/operacionnaya-sistema-microsoft-windows-11-pro/,evidence/vendor-quotes/11-windows-11-pro-notikkz.png,2026-11-15
+Accountant,Monitor,"AOC 24B31H 23.8"" IPS 1920x1080 120 Hz (HDMI, VGA)",38291,ITmag.kz https://itmag.kz/p/117405-monitor-23-8-aoc-24b31h-01-ips-1920x1080-1/,evidence/vendor-quotes/12-monitor-aoc-24b31h.png,2026-11-15
+Sales manager,CPU,"AMD Ryzen 5 7600 OEM (6C/12T, AM5, iGPU)",92810,Forcecom.kz https://forcecom.kz/catalog/processors/model/361014/,evidence/vendor-quotes/01-cpu-ryzen5-7600-forcecom.png,2026-11-15
+Sales manager,CPU cooler,DeepCool GammaXX GT V2 RGB,16990,Shop.kz https://shop.kz/offer/kuler-deepcool-gammaxx-gt-v2-rgb/,evidence/vendor-quotes/03-cooler-gammaxx-gt-v2-shopkz.png,2026-11-15
+Sales manager,Motherboard,"MSI PRO B650M-P (AM5, mATX)",61990,Shop.kz https://shop.kz/offer/materinskaya-plata-msi-pro-b650m-p-am5/,evidence/vendor-quotes/04-mb-msi-b650m-p-shopkz.png,2026-11-15
+Sales manager,Memory,Kingston Fury Beast DDR5-6000 32 GB (2x16) KF560C36BBE2K2-32,226860,ctech.kz https://ctech.kz/p130445162-kingston-fury-beast.html,evidence/vendor-quotes/06-ram-ddr5-32gb-ctechkz.png,2026-11-15
+Sales manager,SSD,Netac NV3000 1 TB NVMe PCIe 3.0,74990,Shop.kz https://shop.kz/offer/ssd-nakopitel-1-tb-netac-nv3000-m-2-pcie-3-0/,evidence/vendor-quotes/07-ssd-netac-1tb-shopkz.png,2026-11-15
+Sales manager,PSU,MSI MAG A550BN 550 W 80+ Bronze,22590,Shop.kz https://shop.kz/offer/blok-pitaniya-atx-550-w-msi-mag-a550bn/,evidence/vendor-quotes/08-psu-msi-a550bn-shopkz.png,2026-11-15
+Sales manager,Case,DeepCool CC560 V2 Black (Midi Tower),28990,Shop.kz https://shop.kz/offer/korpus-deepcool-cc560-v2-black/,evidence/vendor-quotes/09-case-cc560-v2-shopkz.png,2026-11-15
+Sales manager,OS,Windows 11 Pro 64-bit Russian DSP OEI Kazakhstan Only DVD FQC-10548,78100,notik.kz https://notik.kz/shop/software/operacionnaya-sistema-microsoft-windows-11-pro/,evidence/vendor-quotes/11-windows-11-pro-notikkz.png,2026-11-15
+Sales manager,Monitor,"AOC 24B31H 23.8"" IPS 1920x1080 120 Hz (HDMI, VGA)",38291,ITmag.kz https://itmag.kz/p/117405-monitor-23-8-aoc-24b31h-01-ips-1920x1080-1/,evidence/vendor-quotes/12-monitor-aoc-24b31h.png,2026-11-15
+Web developer,CPU,"AMD Ryzen 7 7700 OEM (8C/16T, AM5, iGPU)",100990,Shop.kz https://shop.kz/offer/protsessor-amd-ryzen-7-7700-am5-oem/,evidence/vendor-quotes/02-cpu-ryzen7-7700-shopkz.png,2026-11-15
+Web developer,CPU cooler,DeepCool GammaXX GT V2 RGB,16990,Shop.kz https://shop.kz/offer/kuler-deepcool-gammaxx-gt-v2-rgb/,evidence/vendor-quotes/03-cooler-gammaxx-gt-v2-shopkz.png,2026-11-15
+Web developer,Motherboard,"MSI PRO B650M-P (AM5, mATX)",61990,Shop.kz https://shop.kz/offer/materinskaya-plata-msi-pro-b650m-p-am5/,evidence/vendor-quotes/04-mb-msi-b650m-p-shopkz.png,2026-11-15
+Web developer,Memory,Kingston Fury Beast DDR5-6000 32 GB (2x16) KF560C36BBE2K2-32,226860,ctech.kz https://ctech.kz/p130445162-kingston-fury-beast.html,evidence/vendor-quotes/06-ram-ddr5-32gb-ctechkz.png,2026-11-15
+Web developer,SSD,Netac NV3000 1 TB NVMe PCIe 3.0,74990,Shop.kz https://shop.kz/offer/ssd-nakopitel-1-tb-netac-nv3000-m-2-pcie-3-0/,evidence/vendor-quotes/07-ssd-netac-1tb-shopkz.png,2026-11-15
+Web developer,PSU,MSI MAG A550BN 550 W 80+ Bronze,22590,Shop.kz https://shop.kz/offer/blok-pitaniya-atx-550-w-msi-mag-a550bn/,evidence/vendor-quotes/08-psu-msi-a550bn-shopkz.png,2026-11-15
+Web developer,Case,DeepCool CC560 V2 Black (Midi Tower),28990,Shop.kz https://shop.kz/offer/korpus-deepcool-cc560-v2-black/,evidence/vendor-quotes/09-case-cc560-v2-shopkz.png,2026-11-15
+Web developer,OS,Windows 11 Pro 64-bit Russian DSP OEI Kazakhstan Only DVD FQC-10548,78100,notik.kz https://notik.kz/shop/software/operacionnaya-sistema-microsoft-windows-11-pro/,evidence/vendor-quotes/11-windows-11-pro-notikkz.png,2026-11-15
+Web developer,Monitor,"AOC 24B31H 23.8"" IPS 1920x1080 120 Hz (HDMI, VGA)",38291,ITmag.kz https://itmag.kz/p/117405-monitor-23-8-aoc-24b31h-01-ips-1920x1080-1/,evidence/vendor-quotes/12-monitor-aoc-24b31h.png,2026-11-15
+Web developer,Monitor,"AOC 24B3QA2 23.8"" IPS 1920x1080 120 Hz (DP, HDMI)",57590,Shop.kz https://shop.kz/offer/monitor-23-8-aoc-24b3qa2-01-black/,evidence/vendor-quotes/13-monitor-aoc-24b3qa2.png,2026-11-15
+Designer,CPU,"AMD Ryzen 7 7700 OEM (8C/16T, AM5, iGPU)",100990,Shop.kz https://shop.kz/offer/protsessor-amd-ryzen-7-7700-am5-oem/,evidence/vendor-quotes/02-cpu-ryzen7-7700-shopkz.png,2026-11-15
+Designer,CPU cooler,DeepCool GammaXX GT V2 RGB,16990,Shop.kz https://shop.kz/offer/kuler-deepcool-gammaxx-gt-v2-rgb/,evidence/vendor-quotes/03-cooler-gammaxx-gt-v2-shopkz.png,2026-11-15
+Designer,Motherboard,"MSI PRO B650M-P (AM5, mATX)",61990,Shop.kz https://shop.kz/offer/materinskaya-plata-msi-pro-b650m-p-am5/,evidence/vendor-quotes/04-mb-msi-b650m-p-shopkz.png,2026-11-15
+Designer,Memory,Kingston Fury Beast DDR5-6000 32 GB (2x16) KF560C36BBE2K2-32,226860,ctech.kz https://ctech.kz/p130445162-kingston-fury-beast.html,evidence/vendor-quotes/06-ram-ddr5-32gb-ctechkz.png,2026-11-15
+Designer,SSD,Netac NV3000 1 TB NVMe PCIe 3.0,74990,Shop.kz https://shop.kz/offer/ssd-nakopitel-1-tb-netac-nv3000-m-2-pcie-3-0/,evidence/vendor-quotes/07-ssd-netac-1tb-shopkz.png,2026-11-15
+Designer,GPU,Inno3D GeForce RTX 5060 Twin X2 OC 8 GB (out of stock on 15.11),194500,Forcecom.kz https://forcecom.kz/catalog/graphics-cards/model/531798/,evidence/vendor-quotes/10-gpu-rtx5060-forcecom.png,2026-11-15
+Designer,PSU,MSI MAG A550BN 550 W 80+ Bronze,22590,Shop.kz https://shop.kz/offer/blok-pitaniya-atx-550-w-msi-mag-a550bn/,evidence/vendor-quotes/08-psu-msi-a550bn-shopkz.png,2026-11-15
+Designer,Case,DeepCool CC560 V2 Black (Midi Tower),28990,Shop.kz https://shop.kz/offer/korpus-deepcool-cc560-v2-black/,evidence/vendor-quotes/09-case-cc560-v2-shopkz.png,2026-11-15
+Designer,OS,Windows 11 Pro 64-bit Russian DSP OEI Kazakhstan Only DVD FQC-10548,78100,notik.kz https://notik.kz/shop/software/operacionnaya-sistema-microsoft-windows-11-pro/,evidence/vendor-quotes/11-windows-11-pro-notikkz.png,2026-11-15
+Designer,Monitor,"MSI MAG 275QF 27"" IPS 2560x1440, good sRGB",108990,Shop.kz https://shop.kz/offer/monitor-27-msi-mag-275qf-black/,evidence/vendor-quotes/14-monitor-msi-275qf-ekatalog.png,2026-11-15
