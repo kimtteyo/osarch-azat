@@ -1,0 +1,18 @@
+Nov 17 14:59:04 lab01 kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140dca(GFP_HIGHUSER_MOVABLE|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 17 14:59:05 lab01 kernel:  oom_kill_process.cold+0x8/0xac
+Nov 17 14:59:05 lab01 kernel:  __alloc_pages_may_oom+0x10a/0x1d0
+Nov 17 14:59:05 lab01 kernel: [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+Nov 17 14:59:05 lab01 kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-6.scope,task=stress-ng-vm,pid=2976,uid=1000
+Nov 17 14:59:05 lab01 kernel: Out of memory: Killed process 2976 (stress-ng-vm) total-vm:3620128kB, anon-rss:1325180kB, file-rss:584kB, shmem-rss:0kB, UID:1000 pgtables:6596kB oom_score_adj:1000
+Nov 17 14:59:21 lab01 kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 17 14:59:21 lab01 kernel:  oom_kill_process.cold+0x8/0xac
+Nov 17 14:59:21 lab01 kernel:  __alloc_pages_may_oom+0x10a/0x1d0
+Nov 17 14:59:21 lab01 kernel: [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+Nov 17 14:59:21 lab01 kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-6.scope,task=stress-ng-vm,pid=2980,uid=1000
+Nov 17 14:59:21 lab01 kernel: Out of memory: Killed process 2980 (stress-ng-vm) total-vm:3620128kB, anon-rss:1333096kB, file-rss:584kB, shmem-rss:0kB, UID:1000 pgtables:6596kB oom_score_adj:1000
+Nov 17 14:59:42 lab01 kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 17 14:59:42 lab01 kernel:  oom_kill_process.cold+0x8/0xac
+Nov 17 14:59:42 lab01 kernel:  __alloc_pages_may_oom+0x10a/0x1d0
+Nov 17 14:59:42 lab01 kernel: [  pid  ]   uid  tgid total_vm      rss rss_anon rss_file rss_shmem pgtables_bytes swapents oom_score_adj name
+Nov 17 14:59:42 lab01 kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-6.scope,task=stress-ng-vm,pid=2981,uid=1000
+Nov 17 14:59:42 lab01 kernel: Out of memory: Killed process 2981 (stress-ng-vm) total-vm:3620128kB, anon-rss:1336372kB, file-rss:584kB, shmem-rss:0kB, UID:1000 pgtables:6600kB oom_score_adj:1000

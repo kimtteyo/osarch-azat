@@ -1,0 +1,21 @@
+=== BEFORE ===
+total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       472Mi       771Mi       1.3Mi       502Mi       1.1Gi
+Swap:          2.0Gi        60Ki       2.0Gi
+=== DURING (t=15s) ===
+           total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.5Gi        65Mi       1.2Mi       103Mi        40Mi
+Swap:          2.0Gi       1.4Gi       661Mi
+=== DURING (t=30s) ===
+           total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.5Gi        68Mi       1.1Mi        76Mi        30Mi
+Swap:          2.0Gi       1.3Gi       681Mi
+=== DURING (t=45s) ===
+           total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       1.5Gi        68Mi        36Ki        71Mi        28Mi
+Swap:          2.0Gi       1.4Gi       659Mi
+=== AFTER ===
+           total        used        free      shared  buff/cache   available
+Mem:           1.6Gi       395Mi       1.2Gi        44Ki       118Mi       1.2Gi
+Swap:          2.0Gi        93Mi       1.9Gi
+=== OOM RUN ===
