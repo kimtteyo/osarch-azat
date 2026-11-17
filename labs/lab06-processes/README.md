@@ -71,3 +71,7 @@ scp zhansaya@192.168.100.130:~/kernel-log-extract.txt .
 - [evidence/memory-pressure.txt](evidence/memory-pressure.txt) — proves RAM exhaustion (`available` dropping to `28Mi`) and active swap usage (`1.4Gi`) during the 2500 MB `stress-ng` run.
 - [evidence/kernel-log-extract.txt](evidence/kernel-log-extract.txt) — proves kernel OOM killer invocation and termination of `stress-ng-vm` workers (`PID 2976`, `2980`, `2981`, `oom_score_adj=1000`) under the 5 GB allocation.
 - [evidence/evidence-linux-process.txt](evidence/evidence-linux-process.txt) — proves live process inspection and process tree/state capture on the target Linux host.
+- - [evidence/linux-htop-tree.png](evidence/linux-htop-tree.png) — proves live process tree inspection in `htop` (`sleep 3000`, `PID 2278` under `-bash` `PID 1968`) and baseline memory usage.
+- [evidence/windows-taskmgr-notepad.png](evidence/windows-taskmgr-notepad.png) — proves Windows Task Manager *Details* inspection of `Notepad.exe` (`PID 2616`, `Working set 95,404 K`, `x64`).
+- [evidence/windows-procexp-handles.png](evidence/windows-procexp-handles.png) — proves Sysinternals Process Explorer hierarchy (`explorer.exe` `5376` → `Notepad.exe` `2616`), `Private Bytes` vs `Working Set`, and open process handles.
+- [evidence/windows-procexp-properties.png](evidence/windows-procexp-properties.png) — proves `Notepad.exe` (`PID 2616`) parent-child relationship, user context, and memory protections (DEP, ASLR, CFG).
