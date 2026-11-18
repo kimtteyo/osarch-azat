@@ -1,4 +1,4 @@
-# CP1 — cheat sheet (OSArch, weeks 1–7)
+# CP1 — OSArch, weeks 1–7
 
 > 60 min · 100 points · no VM, no admin rights · PowerShell + text editor + browser
 > Task 1 Inventory 25 · Task 2 Plan 30 · Task 3 Diagnose 45 (**the transcript is worth more than the result**)
