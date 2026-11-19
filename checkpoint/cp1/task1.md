@@ -13,9 +13,7 @@ Date: 2026-11-19
 |Memory: total / available now| 15,1GB/5.8GB|Get-CimInstance Win32_OperatingSystem|
 |System disk: size, free space, SSD or HDD|476GB/136GB/SSD|`Get-PhysicalDisk`,`Get-CimInstance Win32_LogicalDisk`
 |Partition style of the system disk|GPT|Get-Disk|
-|OS and version|Caption        : Майкрософт Windows 11 Pro
-Version        : 10.0.26300
-OSArchitecture : 64-разрядная|`Get-CimInstance Win32_OperatingSystem`
+|OS and version|Caption: Майкрософт Windows 11 Pro/Version: 10.0.26300/OSArchitecture : 64-разрядная|`Get-CimInstance Win32_OperatingSystem`
 
 1b. A machine you have never seen: a thin-and-light laptop
 |Part|Specification|
