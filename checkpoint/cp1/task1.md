@@ -9,10 +9,7 @@ Date: 2026-11-19
 |-|-|-|
 |CPU model|AMD Ryzen AI 5 340 w/ Radeon 840M|`Get-CimInstance Win32_Processor`|
 |Cores / logical processors|6/ 12|same, NumberOfCores / NumberOfLogicalProcessors|
-|Hardware virtualization: supported? enabled in firmware?|VirtualizationFirmwareEnabled           : True
-VMMonitorModeExtensions                 : False
-SecondLevelAddressTranslationExtensions : False
-	|`Get-CimInstance Win32_Processor`|
+|Hardware virtualization: supported? enabled in firmware?|VirtualizationFirmwareEnabled: True/VMMonitorModeExtensions: False/SecondLevelAddressTranslationExtensions : False|`Get-CimInstance Win32_Processor`|
 |Memory: total / available now| 15,1GB/5.8GB|Get-CimInstance Win32_OperatingSystem|
 |System disk: size, free space, SSD or HDD|476GB/136GB/SSD|`Get-PhysicalDisk`,`Get-CimInstance Win32_LogicalDisk`
 |Partition style of the system disk|GPT|Get-Disk|
