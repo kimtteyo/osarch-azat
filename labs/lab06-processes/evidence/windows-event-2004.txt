@@ -1,0 +1,27 @@
+PS C:\WINDOWS\system32> Get-WinEvent -FilterHashtable @{LogName='System'; Id=2004; ProviderName='Microsoft-Windows-Resource-Exhaustion-Detector'} -MaxEvents 5
+Get-WinEvent : No events were found that match the specified selection criteria.
+At line:1 char:1
++ Get-WinEvent -FilterHashtable @{LogName='System'; Id=2004; ProviderNa ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (:) [Get-WinEvent], Exception
+    + FullyQualifiedErrorId : NoMatchingEventsFound,Microsoft.PowerShell.Commands.GetWinEventCommand
+
+PS C:\WINDOWS\system32> Get-WinEvent -FilterHashtable @{LogName='System'; Id=2004} -MaxEvents 5
+
+   ProviderName: Microsoft-Windows-Setup
+
+TimeCreated                      Id LevelDisplayName Message
+-----------                      -- ---------------- -------
+10/23/2026 12:03:23 AM         2004 Information      Successfully logged OS information
+
+PS C:\WINDOWS\system32> Get-WinEvent -ListProvider Microsoft-Windows-Resource-Exhaustion-Detector
+
+
+Name     : Microsoft-Windows-Resource-Exhaustion-Detector
+LogLinks : {System, Microsoft-Windows-Resource-Exhaustion-Detector/Operational}
+Opcodes  : {RDR_DET_OPCODE_LIFECYCLE_START, RDR_DET_OPCODE_LIFECYCLE_STOP, RDR_DET_OPCODE_LIFECYCLE_ALLOC,
+           RDR_DET_OPCODE_DETECTION_START...}
+Tasks    : {RDR_DET_TASK_LIFECYCLE, RDR_DET_TASK_DETECTION, RDR_DET_TASK_DIAGNOSIS}
+
+PS C:\WINDOWS\system32> (Get-Command notepad).Source
+C:\WINDOWS\system32\notepad.exe
