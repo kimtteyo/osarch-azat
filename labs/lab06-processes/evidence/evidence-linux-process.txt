@@ -1,5 +1,12 @@
-    PID    PPID   RSS    VSZ CMD
-   2278    1968  7872  16112 sleep 3000
-VmSize:	   16112 kB
-VmRSS:	    7872 kB
-3
+    PID    PPID STAT   RSS    VSZ CMD
+   2544    1994 S     8256  17652 sleep 3000
+total 0
+lrwx------ 1 zhansaya zhansaya 64 Nov 26 18:32 0 -> /dev/tty1
+lrwx------ 1 zhansaya zhansaya 64 Nov 26 18:32 1 -> /dev/tty1
+lrwx------ 1 zhansaya zhansaya 64 Nov 26 18:32 2 -> /dev/tty1
+    PID CMD
+   1994 -bash
+VmRSS:	    8256 kB
+RssAnon:	    1264 kB
+RssFile:	    6992 kB
+RssShmem:	       0 kB
