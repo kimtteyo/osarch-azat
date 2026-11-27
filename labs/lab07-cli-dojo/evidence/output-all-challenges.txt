@@ -1,0 +1,251 @@
+===== #01 ===== 
+C:\Users\zhansaya\osarch-azat\labs\lab07-cli-dojo
+===== #02 ===== 
+DESKTOP-P17KP7A
+desktop-p17kp7a\zhansaya
+===== #03 ===== 
+ Volume in drive C has no label.
+ Volume Serial Number is FEF0-7377
+
+ Directory of C:\dojo
+
+11/28/2026  12:12 AM    <DIR>          .
+11/28/2026  12:12 AM    <DIR>          backup
+11/28/2026  12:05 AM    <DIR>          logs
+11/28/2026  12:05 AM                51 scores.txt
+               1 File(s)             51 bytes
+               3 Dir(s)  37,818,966,016 bytes free
+===== #04 ===== 
+dojo started
+12:15 AM
+===== #05 ===== 
+C:\Windows\System32\PING.EXE
+===== #06 ===== 
+   IPv4 Address. . . . . . . . . . . : 192.168.100.131(Preferred) 
+   Default Gateway . . . . . . . . . : 192.168.100.2
+   DNS Servers . . . . . . . . . . . : 192.168.100.2
+===== #07 ===== 
+146
+===== #08 ===== 
+Notepad.exe                   5104 Console                    1    105,508 K
+SUCCESS: Sent termination signal to the process with PID 5104.
+ERROR: The process "5104" not found.
+===== #09 ===== 
+ERROR disk quota exceeded for user1 
+ERROR disk quota exceeded for user2 
+ERROR disk quota exceeded for user3 
+ERROR disk quota exceeded for user4 
+ERROR disk quota exceeded for user5 
+ERROR disk quota exceeded for user6 
+ERROR disk quota exceeded for user7 
+===== #10 ===== 
+11
+===== #11 ===== 
+ Volume in drive C has no label.
+ Volume Serial Number is FEF0-7377
+
+ Directory of C:\dojo\logs
+
+11/28/2026  12:05 AM             1,071 app.log
+               1 File(s)          1,071 bytes
+
+ Directory of C:\dojo\backup
+
+11/28/2026  12:05 AM             1,071 app.log
+               1 File(s)          1,071 bytes
+               0 Dir(s)  37,813,886,976 bytes free
+===== #12 ===== 
+File Not Found
+===== #13 ===== 
+gateway OK 
+===== #14 ===== 
+1:INFO user1 login ok 
+10:INFO user10 login ok 
+11:INFO user11 login ok 
+12:INFO user12 login ok 
+13:INFO user13 login ok 
+14:INFO user14 login ok 
+15:INFO user15 login ok 
+16:INFO user16 login ok 
+17:INFO user17 login ok 
+18:INFO user18 login ok 
+19:INFO user19 login ok 
+31:ERROR disk quota exceeded for user1 
+38:WARN slow response for user1 
+===== #15 ===== 
+95 aidos
+88 dana
+79 timur
+72 zarina
+61 bekzat
+===== #16 ===== 
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+dwm.exe                       1052 Console                    1     66,984 K
+Memory Compression            1276 Services                   0    179,984 K
+svchost.exe                   3156 Services                   0     59,628 K
+MsMpEng.exe                   3376 Services                   0    203,088 K
+explorer.exe                  5444 Console                    1    165,504 K
+StartMenuExperienceHost.e     6036 Console                    1    121,912 K
+SearchHost.exe                6088 Console                    1    104,808 K
+Widgets.exe                   6304 Console                    1     61,956 K
+msedgewebview2.exe            6624 Console                    1    121,012 K
+backgroundTaskHost.exe        7084 Console                    1     67,564 K
+msedgewebview2.exe            7604 Console                    1     77,396 K
+WindowsTerminal.exe           1816 Console                    1     85,668 K
+OneDrive.exe                  3300 Console                    1     75,720 K
+ShellExperienceHost.exe       8864 Console                    1     68,260 K
+SnippingTool.exe              3624 Console                    1     80,956 K
+SnippingTool.exe              5100 Console                    1     92,356 K
+===== #17 ===== 
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       404
+  TCP    [::]:135               [::]:0                 LISTENING       404
+
+Image Name                     PID Services                                    
+========================= ======== ============================================
+svchost.exe                    404 RpcEptMapper, RpcSs                         
+===== #18 ===== 
+--- after undo: 
+Ping request could not find host dojo.test. Please check the name and try again.
+--- with the entry: 
+
+Pinging dojo.test [127.0.0.1] with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 1, Received = 1, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+===== #19 ===== 
+C:\dojo\errors.txt 16
+C:\dojo\notes.txt 24
+C:\dojo\procs.txt 11312
+C:\dojo\scores.txt 51
+C:\dojo\backup\app.log 1071
+C:\dojo\logs\app.log 1071
+===== #20 ===== 
+run 1: exit code 1 
+run 2: exit code 1 
+run 3: exit code 2 
+run 4: exit code 0 
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Saturday, November 28, 2026 12:56:30 AM
+   Source : C:\dojo\logs\
+     Dest : C:\dojo\backup\logs\
+
+    Files : *.*
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	  New Dir          1	C:\dojo\logs\
+	    New File  		    1071	app.log
+100%  
+	  New Dir          0	C:\dojo\logs\old\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         2         0         0         0         0
+   Files :         1         1         0         0         0         0
+   Bytes :     1.0 k     1.0 k         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :             214,200 Bytes/sec.
+   Speed :              12.257 MegaBytes/min.
+   Ended : Saturday, November 28, 2026 12:56:30 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Saturday, November 28, 2026 12:57:43 AM
+   Source : C:\dojo\logs\
+     Dest : C:\dojo\backup\logs\
+
+    Files : *.*
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   2	C:\dojo\logs\
+	    New File  		       6	extra.txt
+100%  
+	                   0	C:\dojo\logs\old\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         2         0         0         0
+   Files :         2         1         1         0         0         0
+   Bytes :     1.0 k         6     1.0 k         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :               1,000 Bytes/sec.
+   Speed :               0.057 MegaBytes/min.
+   Ended : Saturday, November 28, 2026 12:57:43 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Saturday, November 28, 2026 12:58:08 AM
+   Source : C:\dojo\logs\
+     Dest : C:\dojo\backup\logs\
+
+    Files : *.*
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	C:\dojo\logs\
+	  *EXTRA File 		       6	extra.txt
+	                   0	C:\dojo\logs\old\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         2         0         0         0
+   Files :         1         0         1         0         0         1
+   Bytes :     1.0 k         0     1.0 k         0         0         6
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Saturday, November 28, 2026 12:58:08 AM
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Saturday, November 28, 2026 12:58:20 AM
+   Source : C:\dojo\logs\
+     Dest : C:\dojo\backup\logs\
+
+    Files : *.*
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   1	C:\dojo\logs\
+	                   0	C:\dojo\logs\old\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         2         0         2         0         0         0
+   Files :         1         0         1         0         0         0
+   Bytes :     1.0 k         0     1.0 k         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : Saturday, November 28, 2026 12:58:20 AM
